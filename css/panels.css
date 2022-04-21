@@ -1,12 +1,17 @@
 
+.spacer { height: 25px !important; }
+ 
 .panel {
+  height: 300px;
+  padding: 15px;
   margin-bottom: 20px;
   background-color: #fff;
-  border: 1px solid transparent;
+  border: 5px solid #133;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
+
 .panel-body {
   padding: 15px;
 }
